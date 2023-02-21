@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #e0e0e0;
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: #fff;
+}
+
+.questionCard{
+  background: violet;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.questionCard h2{
+  margin-bottom: 20px;
+}
+
+.questionCard .question{
+  margin: 5px 0;
+}
+
+.questionCard .question label{
+  margin-left: 5px;
+}
+
+
+.nextQuestion{
+  text-align: center;
+}
+
+.nextQuestion button{
+  background-color: #fff;
+  color: violet;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.nextQuestion button:active{
+  transform: scale(0.98);
+}
+
+
+.notAnswered{
+  color: red;
+  margin: 10px 0;
+}
+
+.finalScore{
+  background-color: violet;
+  padding: 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.finalScore p{
+  font-size: 1.5rem;
+}
+
+.finalScore button{
+  width: 100px;
+  margin: 10px auto;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+
+
